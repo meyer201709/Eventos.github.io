@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organización de Eventos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #ff6f61;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        section {
+            padding: 2rem;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3rem;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .testimonial {
+            background: #f4f4f4;
+            padding: 1rem;
+            border-left: 5px solid #ff6f61;
+            margin: 1rem 0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background: #ff6f61;
+            color: white;
+            border: none;
+            padding: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #e55d50;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Organización de Eventos</h1>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre-nosotros">Sobre Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#galeria">Galería</a>
+    <a href="#testimonios">Testimonios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio" class="hero">
+    <h2>¡Haz que tu evento sea inolvidable!</h2>
+</section>
+
+<section id="sobre-nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos expertos en la organización de eventos sociales, privados y empresariales. Con años de experiencia, nos aseguramos de que cada detalle sea perfecto para que tu evento sea un éxito total.</p>
+</section>
+
+<section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+        <li><strong>Eventos Sociales:</strong> Bodas, cumpleaños, aniversarios y más.</li>
+        <li><strong>Eventos Privados:</strong> Reuniones familiares, celebraciones personales y eventos íntimos.</li>
+        <li><strong>Eventos Empresariales:</strong> Conferencias, seminarios, eventos corporativos y lanzamientos.</li>
+    </ul>
+</section>
+
+<section id="galeria" class="gallery">
+    <h2>Galería de Eventos</h2>
+    <img src="https://via.placeholder.com/1200x800" alt="Evento 1">
+    <img src="https://via.placeholder.com/1200x800" alt="Evento 2">
+    <img src="https://via.placeholder.com/1200x800" alt="Evento 3">
+</section>
+
+<section id="testimonios">
+    <h2>Testimonios</h2>
+    <div class="testimonial">
+        <p>"La organización de nuestro evento fue impecable. Superaron todas nuestras expectativas y todo salió perfecto. ¡Altamente recomendados!"</p>
+        <p>- Cliente Satisfecho</p>
+    </div>
+    <div class="testimonial">
+        <p>"Un equipo profesional y atento. Nos ayudaron a planificar cada detalle y el resultado fue un evento memorable."</p>
+        <p>- Otro Cliente Satisfecho</p>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <form class="contact-form">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo Electrónico" required>
+        <textarea name="mensaje" rows="5" placeholder="Tu Mensaje" required></textarea>
+        <button type="submit">Enviar Mensaje</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Organización de Eventos. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
